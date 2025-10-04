@@ -242,6 +242,18 @@
 
         }
 
+        .h1-gradient {
+            font-size:3rem;
+            font-weight:800;
+            background-image:linear-gradient(-45deg, #2C3E50 , #565a61 70%);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+            text-shadow:
+                0px 0px 0px rgba(0,0,0,0.25),
+                -2px -2px 2px rgba(255,255,255,0.2);
+        }
+
+    
         .hero-content p {
             font-size: 1.25rem;
             color: var(--text-gray);
@@ -476,7 +488,14 @@
             font-size: 2.5rem;
             text-align: center;
             margin-bottom: 3rem;
-            color: var(--text-dark);
+            font-weight:800;
+            background-image:linear-gradient(180deg, #2C3E50 , #a1acbe 90%);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+            text-shadow:
+                    0px 0px 0px rgba(0,0,0,0.25),
+                    -2px -2px 2px rgba(255,255,255,0.2);        
+            
         }
 
         /* Why Us Section */
@@ -958,7 +977,14 @@
 
             .section-title {
                 font-size: 2rem;
-            }
+                font-weight:800;
+                background-image:linear-gradient(180deg, #2C3E50 , #565a61 70%);
+                -webkit-background-clip:text;
+                -webkit-text-fill-color:transparent;
+                text-shadow:
+                    0px 0px 0px rgba(0,0,0,0.25),
+                    -2px -2px 2px rgba(255,255,255,0.2);        
+                }
         }
     </style>
 </head>
@@ -1005,9 +1031,8 @@
     <section class="hero visible">
         <div class="hero-container">
             <div class="hero-content">
-<h1 style="font-size:3rem;font-weight:800;">
-  Sell your house without the usual headaches.
-</h1>
+                <h1 class = 'h1-gradient'>  Sell Your House Without The Usual Headaches.
+                </h1>
 
 <style>
 @keyframes float {
